@@ -25,7 +25,6 @@ public class SeleniumAssignment3 {
 		
 		//Click Button to see alert
 		WebElement alertButton1 = driver.findElement(By.xpath("//button[@id='alertButton']"));
-		//alertButton1.click();
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()", alertButton1);
